@@ -1,0 +1,32 @@
+/*------ Button ------*/
+.ani-btn{background-color: #E74C3C; border: none; width: 150px; height: 50px; border-radius: 5px; color: aliceblue; -webkit-transition: all 200ms ease-in-out;
+-moz-transition: all 200ms ease-in-out;
+-ms-transition: all 200ms ease-in-out;
+-o-transition: all 200ms ease-in-out;
+transition: all 200ms ease-in-out; font-size: 15px}
+
+
+/*------ Button Hover Animation ------*/
+.ani-btn:hover{background-color: #D64541; 
+-webkit-transition: all 200ms cubic-bezier(.11, .99, .58, 1);
+-moz-transition: all 200ms ease-in-out;
+-ms-transition: all 200ms ease-in-out;
+-o-transition: all 200ms ease-in-out;
+transition: all 200ms ease-in-out; cursor: pointer;}
+
+
+/*------ Button Active Animation ------*/
+.ani-btn:active{width: 155px; height: 55px;}
+
+
+/*------ Text Style ------*/
+h1{font-family: 'Fjalla One', sans-serif; color: dimgray
+}
+
+
+/*------ Text Style & Button Centered ------*/
+.centered{text-align: center; margin-top: 110px;}
+
+
+/*------ Google Chrome Button Highlighted Border Removal ------*/
+button:focus {outline:0;}
