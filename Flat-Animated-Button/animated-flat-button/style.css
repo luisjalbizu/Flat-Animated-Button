@@ -19,14 +19,5 @@ transition: all 200ms ease-in-out; cursor: pointer;}
 .ani-btn:active{width: 155px; height: 55px;}
 
 
-/*------ Text Style ------*/
-h1{font-family: 'Fjalla One', sans-serif; color: dimgray
-}
-
-
-/*------ Text Style & Button Centered ------*/
-.centered{text-align: center; margin-top: 110px;}
-
-
 /*------ Google Chrome Button Highlighted Border Removal ------*/
 button:focus {outline:0;}
